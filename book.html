@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 Welcome, Book Dragon! 🐉</title>
+</head>
+<!-- Adding a soft, warm background color -->
+<body bgcolor="#FFDAB9"> 
+    <center>
+        <h1>📚 Welcome, Book Dragon! 🐉</h1>
+        <h3>(Because "Bookworm" just isn't dramatic enough!)</h3>
+
+        <p>We know you're here because you love books more than sleep. No judgment.</p>
+
+        <hr>
+
+        <!-- Random Book Quote Section -->
+        <h3>✨ A Random Bookish Quote for You:</h3>
+
+        <!-- Mystery Quote System (Without JavaScript) -->
+        <details>
+            <summary>📜 Click here for wisdom from the Book Gods!</summary>
+            <blockquote>
+                “A reader lives a thousand lives before he dies.” – George R.R. Martin
+            </blockquote>
+        </details>
+
+        <hr>
+
+        <!-- User Form -->
+        <form action="page2.html" method="GET">
+            <label for="name">📖 What shall we call you in the ancient scrolls?</label><br>
+            <input type="text" id="name" name="name" placeholder="Your Legendary Name"><br><br>
+
+            <label for="age">🕰️ How many chapters (years) have you survived?</label><br>
+            <input type="number" id="age" name="age" min="1" placeholder="Your Age"><br><br>
+
+            <label for="book-length">📏 Ideal book length (pages before you doze off)?</label><br>
+            <input type="number" id="book-length" name="book-length" min="1" placeholder="Pages"><br><br>
+
+            <p>Don't worry, even if you love short books, we won't exile you from the kingdom. Maybe. 👀</p>
+
+            <!-- Audio book flip effect -->
+            <audio id="bookSound" preload="auto">
+                <source src="page-flip.mp3" type="audio/mpeg">
+            </audio>
+
+            <!-- Button that plays sound when clicked -->
+            <button type="submit" onclick="document.getElementById('bookSound').play()">📚 Next Chapter →</button>
+        </form>
+
+        <hr>
+
+        <!-- Funny Disclaimer -->
+        <p><small>Disclaimer: No books were harmed in the making of this page. Just some over-caffeinated imagination. ☕📖</small></p>
+
+        <p>🐉 <i>Dragon-Approved Reading Experience</i>™ 🔥</p>
+    </center>
+</body>
+</html>
